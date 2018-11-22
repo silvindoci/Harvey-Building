@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -764,7 +764,7 @@ nav .menu .dropdown:hover .dropbtn {
     width: 127px;
     height: 36px;
     position: absolute;
-    left: 39px;
+    left: 0px;
 }
 
 .button-five {
@@ -776,7 +776,7 @@ nav .menu .dropdown:hover .dropbtn {
     color: white;
     font-size: 14px;
     position: absolute;
-    left: 182px;
+    left: 140px;
 }
 
 .button-five .red-search img {
@@ -865,7 +865,7 @@ nav .menu .dropdown:hover .dropbtn {
         line-height: 33px;
     }
     .zip input {
-        left: 10px;
+        left: 0px;
     }
     .button-five {
         left: 150px;
@@ -899,7 +899,7 @@ nav .menu .dropdown:hover .dropbtn {
         margin-top: -15px;
     }
     .zip input {
-        left: 39px;
+        left: 0px;
     }
     .button-five {
         left: 182px;
@@ -947,7 +947,7 @@ nav .menu .dropdown:hover .dropbtn {
         line-height: 20px;
     }
     .zip input {
-        left: 10px;
+        left: 00px;
     }
     .button-five {
         left: 150px;
@@ -2496,6 +2496,7 @@ footer {
     background-color: #4e5256;
     padding: 30px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .porto {
@@ -2525,7 +2526,15 @@ footer {
 .grayy .zip {
     position: absolute;
     bottom: 43px;
-    left: 10px
+    left: 0px
+}
+
+.grayy .zip input {
+    left: 35px;
+}
+
+.grayy .button-five {
+    left: 180px;
 }
 
 
@@ -3491,3 +3500,390 @@ footer {
 
 
 /**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/*---------------------Showroom---------------------*/
+
+
+/* --Clearfix */
+
+.slider {
+    margin: 50px 0 10px!important;
+}
+
+#carousel li {
+    margin-right: 5px;
+}
+
+#carousel img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#carousel img:hover {
+    opacity: 1;
+}
+
+#carousel .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+
+
+/*---------------------flex-slider---------------------*/
+
+.slides,
+.slides>li,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider .slides>li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.flexslider .slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.flexslider {
+    margin: 0 0 0 60px;
+    background: #fff;
+    border: 4px solid #fff;
+    position: relative;
+    zoom: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    max-width: 653px;
+    padding: 30px;
+    background: transparent;
+    border-color: transparent;
+}
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+.flexslider .slides img {
+    height: auto;
+    -moz-user-select: none;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.flex-direction-nav {
+    *height: 0;
+}
+
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 27px;
+    height: 105px;
+    margin: -80px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.flex-direction-nav .flex-prev {
+    left: -30px;
+    text-align: left;
+    opacity: 1;
+    background: url('../img/aleft.png');
+}
+
+.flex-direction-nav .flex-next {
+    right: -20px;
+    text-align: right;
+    opacity: 1;
+    background: url('../img/aright.png');
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    margin: 0;
+    display: inline-block;
+}
+
+.flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+}
+
+.flex-control-thumbs li {
+    width: 19.5%;
+    float: left;
+    margin: 0.5px;
+}
+
+.flex-control-thumbs img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.flex-control-thumbs .flex-active {
+    cursor: default;
+}
+
+@media screen and (max-width: 860px) {
+    .flexslider {
+        margin: 0 0 60px;
+    }
+    .flex-direction-nav .flex-prev {
+        opacity: 1;
+        left: -16px;
+    }
+    .flex-direction-nav .flex-next {
+        opacity: 1;
+        right: -16px;
+    }
+}
+
+
+/*---------------------end flex slider---------------------*/
+
+.showrom h3 {
+    font-size: 30px;
+    line-height: 32px;
+    color: rgba(51, 55, 69, 255);
+}
+
+.showrom p {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 55, 69, 255);
+}
+
+.flex-next {
+    z-index: 0
+}
+
+.location {
+    width: 100%;
+    height: 55px;
+    background-color: #e8edf4;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.location p {
+    float: left;
+    margin-top: 5px;
+}
+
+.location .button-five {
+    width: 200px;
+}
+
+.location input {
+    background-color: #e8edf4;
+}
+
+.blockcolon .porto {
+    margin-top: -19px
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .location p {
+        display: none;
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (max-width: 768px) {
+        .location {
+            padding-left: 10px;
+        }
+        .location .button-five {
+            left: 150px;
+        }
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+        .location {
+            height:
+        }
+        .location .button-five {
+            left: 130px;
+        }
+    }
+    /*---------------------end Showroom---------------------*/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/

@@ -45,3 +45,18 @@ $('.restab .tap-p').click(function(event) {
     $(this).addClass('active');
     $(this).siblings().removeClass('active');
 });
+
+//Flex slider
+
+$(function() {
+    SyntaxHighlighter.all();
+});
+$(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+        start: function(slider) {
+            $('body').removeClass('loading');
+        }
+    });
+});
