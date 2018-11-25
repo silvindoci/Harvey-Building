@@ -1827,7 +1827,6 @@ footer {
     background-color: #e8edf4;
     position: absolute;
     width: 50%;
-    height: 200px;
     top: 850px;
     text-align: left;
     min-height: 251px;
@@ -2002,7 +2001,7 @@ ul.tabs li.active {
 
 @media only screen and (max-width: 320px) {}
 
-*/
+
 /*-------------------------------end-suport-center-----------------------------*/
 
 
@@ -3955,4 +3954,211 @@ ul.tabs li.active {
 /**/
 
 
+/* ---------------Warranty-info---------------- */
+
+.bo1 {
+    display: none;
+}
+
+.war1 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box-big1 {
+    background-color: #e8edf4;
+    position: absolute;
+    width: 50%;
+    min-height: 1165px;
+    top: 450px;
+    text-align: left;
+    padding: 10px;
+}
+
+.btn-su {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    width: 266px;
+    height: 43px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.btn-su:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-su .red-search {
+    float: right;
+}
+
+.img-thumbnail {
+    float: left;
+    margin-right: 40px;
+}
+
+.ppp {
+    height: 300px;
+}
+
+.drv1,
+.drv2,
+.drv3 {
+    float: left;
+    margin-top: 20px;
+}
+
+.drv1 .img-thumbnail {
+    width: 385px;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .blue-box1 {
+        top: 929px;
+        line-height: 20px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .boxes {
+        display: none;
+    }
+    .bo1 {
+        height: 1170px;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .box-big1 {
+        background-color: #e8edf4;
+        position: absolute;
+        width: 94%;
+        min-height: 1165px;
+        top: 0;
+        text-align: left;
+        padding: 10px;
+        left: 35px;
+    }
+}
+
+
 /* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .box-big1 {
+        width: 95%;
+        left: 5%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .bo1 {
+        height: 1270px;
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-bottom: 35px;
+    }
+    .box-big1 {
+        background-color: #e8edf4;
+        position: absolute;
+        padding: 15px;
+        width: 97%;
+        left: 5px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/* ---------------Warranty-info---------------- */
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
