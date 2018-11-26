@@ -3487,6 +3487,7 @@ ul.tabs li.active {
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
+    margin-bottom: -300px;
 }
 
 .rv12 {
