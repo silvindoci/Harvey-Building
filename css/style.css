@@ -858,10 +858,11 @@ nav .menu .dropdown:hover .dropbtn {
 }
 
 .box2 {
-    width: 50%;
+    width: 50.3%;
     height: 440px;
     padding-top: 2px;
     color: white;
+    margin-left: -3px;
 }
 
 .box21,
