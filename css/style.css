@@ -967,6 +967,12 @@ nav .menu .dropdown:hover .dropbtn {
     font-weight: bold;
 }
 
+.box11 .red-narrow img,
+.box12 .red-narrow img {
+    width: 2%;
+    height: 70%
+}
+
 
 /* Large Devices, Wide Screens */
 
