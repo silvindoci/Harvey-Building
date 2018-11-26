@@ -50,19 +50,36 @@
 
 /**/
 
-.toggle-menu ul li {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-}
+
+/**/
+
+
+/**/
 
 header nav .menu li a {
     font-family: 'Avenir-Black';
 }
 
+.cal1 .mt-0,
+.gren3 h3,
+.text3 h1,
+.blue-box1 h5,
+h3,
+.para1,
+.para2,
 .list a,
 .list p {
     font-family: 'Avenir-Medium';
 }
 
+.row454 h3,
+.porto h2,
+.grayy h2,
+.grayrow h3,
+.redrow h3,
+.bluerow h3,
+.call-list h3,
+.gren2 h3,
 .ful0 h3,
 .title,
 .sb,
@@ -73,12 +90,6 @@ header nav .menu li a {
 .text1 h1 {
     font-family: 'Avenir-Roman';
 }
-
-
-/**/
-
-
-/**/
 
 
 /**/
@@ -374,6 +385,7 @@ header nav .menu li a {
     margin: 5px 5px 5px 0;
     text-decoration: none;
     list-style: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .toggle-menu ul li a {
@@ -858,7 +870,7 @@ nav .menu .dropdown:hover .dropbtn {
 .box22 h3 {
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 43px;
     color: rgba(255, 255, 255, 255);
 }
@@ -1091,7 +1103,7 @@ nav .menu .dropdown:hover .dropbtn {
         display: none;
     }
     .list a {
-        font-size: 2.7vw;
+        font-size: 12px;
     }
 }
 
@@ -2915,7 +2927,7 @@ ul.tabs li.active {
 .text3 {
     background: #c41230;
     margin: 0 0 2px;
-    padding: 0 20px 0 153px;
+    padding: 8px 20px 0 153px;
     height: 61px;
     width: 70%;
 }
@@ -3108,6 +3120,9 @@ ul.tabs li.active {
 }
 
 @media only screen and (max-width: 480px) {
+    .media .mr-3 {
+        margin-top: 30px;
+    }
     .gren {
         height: 250px;
     }
@@ -3169,6 +3184,8 @@ ul.tabs li.active {
 .va {
     text-decoration: none;
     color: rgba(196, 18, 48, 255);
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .bluerow {
